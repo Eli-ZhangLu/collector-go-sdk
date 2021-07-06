@@ -13,7 +13,7 @@
 
 **Note: 需要注意的点**
 
-collector-go-sdk 依赖了我们自己基于 elastic/beats 改造后的 beats 版本，代码位于 [TencentBlueKing/beats](https://github.com/TencentBlueKing/beats)，gomod 依赖引入时请使用 replace 语法替换为`gser/collector-go-sdk/beats/
+collector-go-sdk 依赖了我们自己基于 elastic/beats 改造后的 beats 版本，代码位于 [TencentBlueKing/beats](https://github.com/TencentBlueKing/beats)，gomod 依赖引入时请使用 replace 语法替换为
 
 ```
 require github.com/elastic/beats v7.1.1+incompatible
