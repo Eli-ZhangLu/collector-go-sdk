@@ -15,7 +15,7 @@ import (
 	"github.com/elastic/beats/libbeat/common"
 	"github.com/elastic/beats/libbeat/logp"
 
-	"github.com/TencentBlueKing/collector-go-sdk/bkbeat/bkmonitoring"
+	"github.com/TencentBlueKing/collector-go-sdk/v2/bkbeat/bkmonitoring"
 )
 
 // Config GseClient config

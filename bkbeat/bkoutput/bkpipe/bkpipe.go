@@ -5,7 +5,7 @@ import (
 	"github.com/elastic/beats/libbeat/common"
 	"github.com/elastic/beats/libbeat/outputs"
 
-	"github.com/TencentBlueKing/collector-go-sdk/bkbeat/bkoutput/gse"
+	"github.com/TencentBlueKing/collector-go-sdk/v2/bkbeat/bkoutput/gse"
 )
 
 func init() {

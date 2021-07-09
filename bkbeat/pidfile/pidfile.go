@@ -6,7 +6,7 @@ import (
 	"os"
 	"path/filepath"
 
-	bkcommon "github.com/TencentBlueKing/collector-go-sdk/bkbeat/common"
+	bkcommon "github.com/TencentBlueKing/collector-go-sdk/v2/bkbeat/common"
 	"github.com/nightlyone/lockfile"
 )
 

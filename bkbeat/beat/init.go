@@ -8,11 +8,11 @@ import (
 	"path/filepath"
 	"sync"
 
-	bkcommon "github.com/TencentBlueKing/collector-go-sdk/bkbeat/common"
-	"github.com/TencentBlueKing/collector-go-sdk/bkbeat/logp"
-	"github.com/TencentBlueKing/collector-go-sdk/bkbeat/pidfile"
-	bkreloader "github.com/TencentBlueKing/collector-go-sdk/bkbeat/reloader"
-	bkstorage "github.com/TencentBlueKing/collector-go-sdk/bkbeat/storage"
+	bkcommon "github.com/TencentBlueKing/collector-go-sdk/v2/bkbeat/common"
+	"github.com/TencentBlueKing/collector-go-sdk/v2/bkbeat/logp"
+	"github.com/TencentBlueKing/collector-go-sdk/v2/bkbeat/pidfile"
+	bkreloader "github.com/TencentBlueKing/collector-go-sdk/v2/bkbeat/reloader"
+	bkstorage "github.com/TencentBlueKing/collector-go-sdk/v2/bkbeat/storage"
 
 	"github.com/elastic/beats/libbeat/cfgfile"
 	"github.com/elastic/beats/libbeat/cmd/instance"

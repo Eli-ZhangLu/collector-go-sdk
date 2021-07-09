@@ -1,4 +1,4 @@
-module github.com/TencentBlueKing/collector-go-sdk
+module github.com/TencentBlueKing/collector-go-sdk/v2
 
 go 1.14
 
@@ -40,6 +40,7 @@ require (
 	github.com/spf13/cobra v1.0.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/stretchr/objx v0.2.0 // indirect
+	github.com/stretchr/testify v1.6.1
 	go.uber.org/zap v1.16.0 // indirect
 	golang.org/x/crypto v0.0.0-20210220033148-5ea612d1eb83 // indirect
 	golang.org/x/lint v0.0.0-20200302205851-738671d3881b // indirect
@@ -56,5 +57,5 @@ require (
 
 replace (
 	github.com/Sirupsen/logrus v1.6.0 => github.com/sirupsen/logrus v1.6.0
-	github.com/elastic/beats v7.1.1+incompatible => ../beats
+	github.com/elastic/beats v7.1.1+incompatible => github.com/TencentBlueKing/beats v7.2.0-bk+incompatible
 )

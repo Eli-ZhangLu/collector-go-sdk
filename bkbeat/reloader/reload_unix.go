@@ -13,7 +13,7 @@ import (
 	"github.com/elastic/beats/libbeat/cfgfile"
 	"github.com/elastic/beats/libbeat/logp"
 
-	"github.com/TencentBlueKing/collector-go-sdk/bkbeat/pidfile"
+	"github.com/TencentBlueKing/collector-go-sdk/v2/bkbeat/pidfile"
 )
 
 // NewReloader creates new Reloader instance for the given config

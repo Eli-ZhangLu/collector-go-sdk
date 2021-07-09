@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/TencentBlueKing/collector-go-sdk/bkbeat/storage"
+	"github.com/TencentBlueKing/collector-go-sdk/v2/bkbeat/storage"
 )
 
 var path string

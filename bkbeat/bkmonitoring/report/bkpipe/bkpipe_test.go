@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/TencentBlueKing/collector-go-sdk/bkbeat/bkmonitoring"
-	"github.com/TencentBlueKing/collector-go-sdk/bkbeat/logp"
+	"github.com/TencentBlueKing/collector-go-sdk/v2/bkbeat/bkmonitoring"
+	"github.com/TencentBlueKing/collector-go-sdk/v2/bkbeat/logp"
 
 	"github.com/elastic/beats/libbeat/common"
 	libbeatlogp "github.com/elastic/beats/libbeat/logp"

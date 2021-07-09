@@ -5,10 +5,10 @@ import (
 	"time"
 
 	// important plugins
-	_ "github.com/TencentBlueKing/collector-go-sdk/bkbeat/bkmonitoring/report/bkpipe"
-	_ "github.com/TencentBlueKing/collector-go-sdk/bkbeat/bkoutput/bkpipe"
-	_ "github.com/TencentBlueKing/collector-go-sdk/bkbeat/bkoutput/gse"
-	_ "github.com/TencentBlueKing/collector-go-sdk/bkbeat/bkprocessor/actions"
+	_ "github.com/TencentBlueKing/collector-go-sdk/v2/bkbeat/bkmonitoring/report/bkpipe"
+	_ "github.com/TencentBlueKing/collector-go-sdk/v2/bkbeat/bkoutput/bkpipe"
+	_ "github.com/TencentBlueKing/collector-go-sdk/v2/bkbeat/bkoutput/gse"
+	_ "github.com/TencentBlueKing/collector-go-sdk/v2/bkbeat/bkprocessor/actions"
 
 	"github.com/elastic/beats/libbeat/beat"
 	"github.com/elastic/beats/libbeat/common"

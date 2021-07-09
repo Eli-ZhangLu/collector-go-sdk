@@ -8,9 +8,9 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/TencentBlueKing/collector-go-sdk/bkbeat/beat"
-	"github.com/TencentBlueKing/collector-go-sdk/bkbeat/logp"
-	"github.com/TencentBlueKing/collector-go-sdk/examplebeat/config"
+	"github.com/TencentBlueKing/collector-go-sdk/v2/bkbeat/beat"
+	"github.com/TencentBlueKing/collector-go-sdk/v2/bkbeat/logp"
+	"github.com/TencentBlueKing/collector-go-sdk/v2/examplebeat/config"
 )
 
 // ExampleBeat
