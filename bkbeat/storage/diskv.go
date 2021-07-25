@@ -44,7 +44,7 @@ func (cli *LocalStorage) Close() error {
 
 // Set : set value
 func (cli *LocalStorage) Set(key, value string, expire time.Duration) error {
-	return cli.store.WriteString(key, value)
+	return cli.store.Write(key, []byte(value))
 }
 
 // Get : get value
